@@ -52,5 +52,3 @@ let Escolha = generosMusicais
     const escolhido = Escolha.generos[contador]
  }
 
- const opcoes = prompt ("Escolha um dos gêneros abaixo")
-
