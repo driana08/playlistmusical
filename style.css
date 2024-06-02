@@ -1,47 +1,46 @@
-.cabecalho {
-    display:flex;
-    margin-left: 145px;
-    margin-right: 20px;
-    margin-top: 60px;
-}
 
-img {
-    height: 40px;
-    width: 40px;
-    align-items: center;
-}
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    text-align: center;
-}
 body {
-    background-color: rgb(188, 133, 225);
-}
-input {
-    background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
 
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-
-  font-family: "Reddit Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: bold;
-
-  border-radius: 6px;
-  padding: 20px;
-  text-shadow: 1px 1px 2px #333;
-  text-transform: uppercase;
-  border: 4px solid transparent;
+.Cabecalho {
+    color: white;
+    font-size: 20px;
+   background-color: rgb(122, 122, 179, 0.5);
+   border-radius: 20px;
+   text-align: center;
+   padding: 20px;
+   font-family: "Chakra Petch", sans-serif;
 }
 .opcoes {
-    display: flex
-    flex:table-column
+    display: block;
+}
+input {
+    background-color: rgb(122, 122, 179);
+    padding: 30px 60px;
+    font-size: 25px;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+.primeiras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.segundas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn {
+    margin-left: 20px;
+    margin-right: 20px;
 }
