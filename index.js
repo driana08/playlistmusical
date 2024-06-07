@@ -14,7 +14,7 @@ const chooseGenres = {
         },
         {
             text: "Funk",
-            next:"funk",
+            next: "funk",
         },
         {
             text: "Sertanejo",
@@ -46,12 +46,13 @@ const chooseGenres = {
 
 let Escolhas = chooseGenres;
 
-const generoEscolha = prompt ("Escolha um dos gêneros abaixo")
 
-for (let contador = 0; contador < Escolhas.generos.length; contador ++) {
-    const choosenGender = Escolhas.generos.text;
+for (let contador = 0; contador < Escolhas.generos.length; contador++) {
+    const options = Escolhas.generos[contador].text
+    console.log(contador + ". " + options);
+   
 }
 
+const generoEscolha = prompt("Escolha um dos gêneros abaixo")
 
-console.log(chooseGenres.generos.length);
 
