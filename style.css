@@ -3,44 +3,67 @@ body {
     background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.Cabecalho {
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #app h1 {
+    font-family:"Rowdies", sans-serif;
+    text-align: center;
     color: white;
-    font-size: 20px;
-   background-color: rgb(122, 122, 179, 0.5);
-   border-radius: 20px;
-   text-align: center;
-   padding: 20px;
-   font-family: "Chakra Petch", sans-serif;
-}
-.opcoes {
-    display: block;
-}
-input {
-    background-color: rgb(122, 122, 179);
-    padding: 30px 60px;
-    font-size: 25px;
-    border-color: rgb(255, 255, 255);
-    border-width: 5px;
+    font-size: 40px;
+    background-color: rgb(209, 195, 221, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
-}
-.primeiras {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
+  }
 
-.segundas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-.btn {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+  btn {
+    background: rgb(221, 104, 221);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+  
+    border-radius: 6px;
+    padding: 20px;
+    text-shadow: 1px 1px 2px #333;
+    text-transform: uppercase;
+    border: 4px solid transparent;
+  }
+  
+  .btn:hover {
+    border: 4px solid rgba(255, 119, 255, 0.7);
+    background: white;
+    color: #222;
+  }
+  
+

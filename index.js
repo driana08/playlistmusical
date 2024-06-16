@@ -47,12 +47,5 @@ const chooseGenres = {
 let Escolhas = chooseGenres;
 
 
-for (let contador = 0; contador < Escolhas.generos.length; contador++) {
-    const options = Escolhas.generos[contador].text
-    console.log(contador + ". " + options);
-   
-}
-
-const generoEscolha = prompt("Escolha um dos gêneros abaixo")
 
 
